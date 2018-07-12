@@ -1,6 +1,7 @@
 # Unsupervised
 Unsupervised feature engineering(Kmeans, PCA, NMF and Tsen)
 四种无监督变量衍生方法（基于Kmeans, PCA, NMF and T-sen）
+
 简介：介绍四种无监督的变量衍生方法，分别是基于Kmeans、PCA，NMF和T-sen。PCA和NMF相对于对于原始变量的主要因素进行提取，一个是基于主要信息（Pca基于方差），一个是基于矩阵分解的方法。Kmeans大家比较熟悉，传统的聚类方法。T-Sen是降维可视化的方法，本质上达到了聚类的效果，也被我拿来做了无监督衍生。做无监督变量衍生的逻辑是，信用风险，或是欺诈风险较高的客户，实际上的因变量确实和正常客户有所差异。如果是因为业务逻辑或者数据处理的问题导致，分布差异不是由于风险引起的，那么变量衍生效果肯定会受影响。不过借助T-sen非常优良的可视化效果，也可以发现这样的问题。我写了一个python的类，不仅有变量衍生方法，也可以输出图形，考察分布是否出现了差异。代码地址如下：
 https://github.com/maidoudoujiushiwo/Unsupervised
 	方法介绍
