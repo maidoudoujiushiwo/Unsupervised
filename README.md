@@ -1,7 +1,7 @@
 # Unsupervised
-Unsupervised feature engineering(Kmeans, PCA, NMF and Tsen)
+Unsupervised feature engineering(Kmeans, PCA, NMF and T-sne)
 
-四种无监督变量衍生方法（基于Kmeans, PCA, NMF and T-sen）
+四种无监督变量衍生方法（基于Kmeans, PCA, NMF and T-sne）
  
 	程序说明
 cl=Unsupervised(m1,coonew,'y')
